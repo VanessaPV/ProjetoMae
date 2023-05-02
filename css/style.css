@@ -1,0 +1,180 @@
+/* font-family: 'Lilita One', cursive; font-family: 'Ysabeau', sans-serif;*/
+
+.body{
+    background-color:rgb(0, 0, 0);
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    font-family: Ysabeau, cursive, sans-serif;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    max-width: 900;
+    padding: 1px;
+    box-sizing: border-box;
+    background-color:pink;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+}
+
+
+.header__nome{
+    font-size: 100;
+    font-family: Lilita One, cursive, sans-serif;
+    font-weight: 400;
+    color: black;
+    margin: 16px 0;
+    align-items: center;
+}
+
+.main{
+    width: 100%;
+    max-width: 900;
+    padding: 1px;
+    box-sizing: border-box;
+    font-size: 400;
+    font-family: Ysabeau, cursive, sans-serif;
+    margin: 0 auto;
+
+}
+
+.div{
+    background-color:black;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    color:pink;
+
+}
+.div__frase{
+    font-size: 90;
+    font-family: Lilita One, cursive, sans-serif;
+    opacity: .6;
+    color:pink;
+    flex-direction:column;
+    text-align: right;
+    animation: animacaoFrase 1s infinite alternate;
+}
+    
+.div__img{
+    border:pink 3px solid;
+    border-radius: 30%;
+}
+
+.div__descricao{
+    color: pink;
+    font-size: 400;
+    font-family: Ysabeau, cursive, sans-serif;
+    display: flex;
+    box-sizing: border-box;
+    text-align:center;
+    width: 600px;
+}
+
+.section{
+    width: 100%;
+    max-width: 900;
+    padding: 1px;
+    box-sizing: border-box;
+    font-size: 400;
+    font-family: Ysabeau, cursive, sans-serif;
+    margin: 0 auto;
+    background-color: black;
+    color:pink;
+    font-size: 400;
+    font-family: Ysabeau, cursive, sans-serif;
+    margin: 0 auto;
+}
+
+.section__titulo{
+    color:pink;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.nasa{
+    background-color:black;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;   
+}
+
+.nasa__img{
+    border-radius: 30%;
+    box-sizing: border-box;
+    width: 390px;
+    height: 400px;
+    float:left;
+    padding: 5px;
+}
+
+.nasa__descricao{
+    color: pink;
+    font-size: 400;
+    font-family: Ysabeau, cursive, sans-serif;
+    box-sizing: border-box;
+    float:left;
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+    text-align: justify;
+}
+
+.fundacao{
+    background-color:black;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.fundacao__img{
+    border-radius: 30%;
+    box-sizing: border-box;
+    width: 400px;
+    height: 395x;
+    float:right;
+    padding: 5px;
+}
+
+
+.fundacao__descricao{
+    color: pink;
+    font-size: 400;
+    font-family: Ysabeau, cursive, sans-serif;
+    box-sizing: border-box;
+    float:right;
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+    text-align: justify;
+}
+
+.footer{
+    width: 100%;
+    height:30px;
+    font-size: 20;
+    font-family: Lilita One, cursive, sans-serif;
+    color: black;
+    background-color:pink;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: right;  
+    flex-shrink: 100; 
+}
+
+@keyframes animacaoFrase {
+   0%{
+        transform: translate(10px);
+    }
+    100%{
+        transform: translate(20px);
+    }
+    0%{
+        transform: translate(0px);
+    }
+}

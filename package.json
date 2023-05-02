@@ -1,0 +1,15 @@
+{
+  "name": "projetomae",
+  "version": "1.0.0",
+  "description": "Projeto final curso Womakerscode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vanessa PV",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
